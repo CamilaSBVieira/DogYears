@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
+
+body {
+    background-color: #ABE1AD;
+    padding: 2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+header {
+    text-align: center;
+    color: #2C7A5B;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+input {
+    border: none;
+    padding: 1rem;
+}
+.botao {
+    background-color: #2C7A5B;
+    cursor: pointer;
+}
+span {
+    background-color: #72AD96;
+    padding: .5rem;
+}
