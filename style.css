@@ -31,17 +31,16 @@ input {
     padding: 1rem;
     border-radius: 10px;
 }
+button {
+    -webkit-appearance: none;
+}
 .botao {
     background-color: #2C7A5B;
     cursor: pointer;
-    color: #000;
-    padding: 1rem;
 }
 .botaoLimpar {
     background-color: #72AD96;
     cursor: pointer;
-    color: #000;
-    padding: 1rem;
 }
 span {
     background-color: #72AD96;
