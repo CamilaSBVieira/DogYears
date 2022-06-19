@@ -34,11 +34,12 @@ input {
     border: 1px solid #2C7A5B;
     padding: 1rem;
     border-radius: 10px;
+}
+input[type="button"] {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
 }
-
 .botao {
     background-color: #2C7A5B;
     cursor: pointer;
