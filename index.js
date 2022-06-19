@@ -27,6 +27,6 @@ age.addEventListener('keydown', function(e) {
         convertToDogYears();
     }
 });
-botaoLimpar.onclick = function() {
+botaoLimpar.addEventListener('click', function() {
     age.value = '';
-}
+});
