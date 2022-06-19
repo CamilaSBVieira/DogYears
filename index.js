@@ -1,6 +1,7 @@
 
 const botao = document.getElementById('botao');
 const age = document.getElementById('age');
+const botaoLimpar = document.getElementById('botaoLimpar');
 
 function convertToDogYears() {
     let earlyYears;
@@ -25,4 +26,7 @@ age.addEventListener('keydown', function(e) {
         e.preventDefault();
         convertToDogYears();
     }
-})
+});
+botaoLimpar.onclick = function() {
+    age.value = '';
+}

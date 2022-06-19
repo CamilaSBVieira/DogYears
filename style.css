@@ -23,6 +23,10 @@ input {
     background-color: #2C7A5B;
     cursor: pointer;
 }
+.botaoLimpar {
+    background-color: #72AD96;
+    cursor: pointer;
+}
 span {
     background-color: #72AD96;
     padding: .5rem;
