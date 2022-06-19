@@ -5,10 +5,12 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     padding-top: 7%;
 }
+
 header {
     text-align: center;
     color: #2C7A5B;
 }
+
 form {
     display: flex;
     flex-direction: column;
@@ -20,28 +22,33 @@ form {
     width: 80vw;
     margin: 0 auto;
 }
+
 @media screen and (min-width: 812px) {
     form {
         width: 60vw;
         padding: 3rem 0;
     }
 }
+
 input {
     border: 1px solid #2C7A5B;
     padding: 1rem;
     border-radius: 10px;
-}
-button {
     -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
+
 .botao {
     background-color: #2C7A5B;
     cursor: pointer;
 }
+
 .botaoLimpar {
     background-color: #72AD96;
     cursor: pointer;
 }
+
 span {
     background-color: #72AD96;
     padding: .5rem;
