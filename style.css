@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
 
 body {
-    background-color: #ABE1AD;
-    padding: 2rem;
+    background-color: #72AD96;
     font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 7%;
 }
 header {
     text-align: center;
@@ -14,10 +14,16 @@ form {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+    box-shadow: .5rem .5rem 1rem #2C7A5B;
+    background-color: #FFFFFF;
+    padding: 3rem 0;
+    width: 60vw;
+    margin: 0 auto;
 }
 input {
-    border: none;
+    border: 1px solid #2C7A5B;
     padding: 1rem;
+    border-radius: 10px;
 }
 .botao {
     background-color: #2C7A5B;
